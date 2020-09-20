@@ -1,0 +1,64 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+        Auto Loan Calculator App
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h3> GreenLife Bank</h3>
+  <p>
+  Welcome to our Auto Loan Calculator! Here, you can inquire your loan deals of your preference. You're welcome fellow Greener!
+  </p>
+   
+<ion-content>
+  
+  <ion-list>
+  
+    <ion-item>
+      <ion-label> Vehicle Price(PHP)</ion-label>
+      <ion-input type="number" [(ngModel)]="VP"> </ion-input>
+  </ion-item>
+
+  <br>
+
+  <ion-item>
+  <ion-label> Loan Terms  36|48|60 </ion-label>
+  <ion-input type="number" [(ngModel)]="LT"> </ion-input>
+</ion-item>
+
+<br>
+
+<ion-item>
+  <ion-label> Down Payment  20|30|40% </ion-label>
+  <ion-input type="number" [(ngModel)]="DP"> </ion-input>
+</ion-item>
+
+<button ion-button color="Primary" (click)="compute()"> Compute </button>
+
+<br>
+<br>
+<br>
+<br>
+
+<ion-item> 
+  <h3> Downpayment Amount (PHP) {{DPA}} </h3>
+</ion-item>
+
+<br>
+<ion-item> 
+  <h3> Loan Amount (PHP) {{LA}} </h3>
+</ion-item>
+
+<br>
+<ion-item> 
+  <h3> Monthly Amortization (PHP) {{MA}} </h3>
+</ion-item>
+
+
+
+     
+     
+  </ion-list>
+</ion-content>
