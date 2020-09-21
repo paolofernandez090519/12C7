@@ -1,6 +1,6 @@
 ion-content{
-  background: linear-gradient(to bottom, #52c234, #061700); 
-
+  background-image: url(https://cdn.jsdelivr.net/gh/paolofernandez090519/12C7@master/green-living.jpg);
+background-size: 100% 100%;
 }
 h2{
   color: rgb(255, 255, 255);

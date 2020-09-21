@@ -1,20 +1,9 @@
 ion-content{
-background: linear-gradient(to bottom, #52c234, #061700);
+background-image: url(https://cdn.jsdelivr.net/gh/paolofernandez090519/12C7@master/green-living.jpg);
+background-size: 100% 100%;
 }
 
-h3{
-color: rgb(255, 255, 255);
-text-align: center;
-  font-size:45px;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 
-}
-p{
-  color: rgb(255, 255, 255);
-text-align: left;
-  font-size:30px;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-}
   
 
 
