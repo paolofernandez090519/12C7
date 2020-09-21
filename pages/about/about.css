@@ -3,5 +3,25 @@ background-image: url(https://cdn.jsdelivr.net/gh/paolofernandez090519/12C7@mast
 background-size: 100% 100%;
 }
 
+h2{
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size:100px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+ion-label{
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size:45px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+p{
+  color: rgb(255, 255, 255);
+  text-align: left;
+  font-size:40px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
 
 
