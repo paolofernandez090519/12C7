@@ -26,7 +26,7 @@ public DPA: number
   this.DPA= this.VP*this.DP/100;
   this.LA= this.VP-this.DPA;
   this.TI= this.LA* 0.3026/100;
-  this.MA= parseInt(this.LA) + parseInt(this.TI)/this.LT;
+  this.MA= (parseInt(this.LA) + parseInt(this.TI))/this.LT;
 
 
   
